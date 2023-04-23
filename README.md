@@ -2,6 +2,8 @@
 
 Convert a message received via WhatsApp into a text (Text-to-speech)
 
+![Transcriber](https://malheiros.io/images/transcriber-bot.gif)
+
 ## Usage and documentation
 
 Create environment variables in your .env file

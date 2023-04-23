@@ -1,7 +1,6 @@
 package bot
 
 import (
-	"fmt"
 	"net/http"
 	"path"
 
@@ -38,8 +37,6 @@ func (app *Config) receiveMessage() gin.HandlerFunc {
 			app.errorJSON(c, err)
 			return
 		}
-
-		fmt.Println(reply)
 
 		app.writeXML(c, http.StatusAccepted, reply)
 	}

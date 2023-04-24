@@ -31,6 +31,11 @@ lt -p 8080
 
 For more details, access this [medium link]() to the complete step-by-step article on how the code was built.
 
+### TODO
+- [ ] Unit tests
+- [ ] Refactor to remove coupling of Gin usage in some files
+
+
 ## License
 
 Distributed under MIT License, please see license file in code for more details.
